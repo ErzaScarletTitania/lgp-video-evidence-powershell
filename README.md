@@ -1,4 +1,4 @@
-# g-connect-frame-extractor-ps1
+# LGP Video Evidence - PowerShell
 
 PowerShell helper extracted from the G-Connect testing session workspace.
 
@@ -21,3 +21,10 @@ This script samples a recorded test-session video at fixed timestamps and writes
 ## Main file
 
 - `extract-video-frames.ps1`
+
+## Related projects
+
+- [LGP Video Evidence - C#](https://github.com/ErzaScarletTitania/lgp-video-evidence-csharp): an alternative frame-extraction implementation using OpenCvSharp.
+- [LGP QA Orchestration](https://github.com/ErzaScarletTitania/lgp-qa-orchestration): a related architecture reference for evidence-based QA workflows.
+
+These are related projects, not package dependencies. This extractor keeps its own runtime and setup requirements.
